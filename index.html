@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Janken - じゃんけん</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --font-sans: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col items-center justify-center h-screen m-0 bg-gradient-to-r from-[#74ebd5] to-[#acb6e5] text-gray-800 font-sans">
+    <!-- Title -->
+    <h1 class="text-3xl font-bold mb-6">Janken - じゃんけん</h1>
+
+    <!-- Choice -->
+    <div class="flex gap-6 mb-6">
+      <button onclick="playGame('rock')" class="bg-white text-gray-800 rounded-full w-20 h-20 flex items-center justify-center text-4xl shadow-md transform transition hover:scale-110 hover:bg-yellow-400 hover:text-black">
+        ✊
+      </button>
+      <button onclick="playGame('paper')" class="bg-white text-gray-800 rounded-full w-20 h-20 flex items-center justify-center text-4xl shadow-md transform transition hover:scale-110 hover:bg-yellow-400 hover:text-black">
+        ✋
+      </button>
+      <button onclick="playGame('scissors')" class="bg-white text-gray-800 rounded-full w-20 h-20 flex items-center justify-center text-4xl shadow-md transform transition hover:scale-110 hover:bg-yellow-400 hover:text-black">
+        ✌️
+      </button>
+    </div>
+
+    <!-- Result -->
+    <div id="result" class="text-lg font-medium mb-4">Make your move!</div>
+    <div class="flex gap-5 bg-white/60 px-5 py-3 rounded-xl shadow-lg min-w-[260px]">
+      <div class="flex flex-col items-center flex-1">
+        <span class="text-blue-600 font-semibold text-base">You</span>
+        <span id="userScore" class="text-2xl font-bold">0</span>
+      </div>
+      <div class="flex flex-col items-center flex-1">
+        <span class="text-red-600 font-semibold text-base">Computer</span>
+        <span id="computerScore" class="text-2xl font-bold">0</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
