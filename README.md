@@ -36,7 +36,7 @@
    git clone https://github.com/username/rock-paper-scissors.git
    ```
    
-2. Open the index.html in your browser and start playing 🚀
+2. Open the `index.html` in your browser and start playing 🚀
 
 ---
 
@@ -54,4 +54,5 @@
 ## 📸 Screenshots
 
 <img src="screenshots/ssjanken.png" />
+
 
