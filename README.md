@@ -2,6 +2,11 @@
 
 **Janken** is a web-based mini game where players compete against the computer. Fully responsive and interactive.
 
+![GitHub repo size](https://img.shields.io/github/repo-size/raffyhidayatulloh/janken)
+![GitHub issues](https://img.shields.io/github/issues/raffyhidayatulloh/janken)
+![GitHub forks](https://img.shields.io/github/forks/raffyhidayatulloh/janken)
+![GitHub stars](https://img.shields.io/github/stars/raffyhidayatulloh/janken)
+
 ---
 
 ## 🚀 Tech Stack
@@ -49,3 +54,4 @@
 ## 📸 Screenshots
 
 <img src="screenshots/ssjanken.png" />
+
