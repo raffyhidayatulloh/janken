@@ -1,11 +1,11 @@
 # Janken (じゃんけん) - Rock Paper Scissors Mini Game
 
-## 📌 Project Description
-Janken (じゃんけん) is a simple web-based mini game that allows users to play against the computer.
+**Janken** is a web-based mini game where players compete against the computer. Fully responsive and interactive.
 
 ---
 
-## 🚀 Technologies Used
+## 🚀 Tech Stack
+
 - **HTML5**
 - **TailwindCSS**
 - **JavaScript (Vanilla)**
@@ -13,7 +13,8 @@ Janken (じゃんけん) is a simple web-based mini game that allows users to pl
 
 ---
 
-## 🎮 Features
+## ✨ Features
+
 - Player can choose: **Rock, Paper, or Scissors**
 - Computer generates a random choice 
 - System determines the **winner of each round** in real time
@@ -22,27 +23,29 @@ Janken (じゃんけん) is a simple web-based mini game that allows users to pl
 
 ---
 
-## ⚡ Setup Instructions
+## ⚡ Quick Setup
+
 1. Clone repository:
+
    ```bash
    git clone https://github.com/username/rock-paper-scissors.git
    ```
-2. Open the index.html file in your browser
-3. Start playing 🚀
+   
+2. Open the index.html in your browser and start playing 🚀
 
 ---
 
-## 🤖 AI Usage
-AI (IBM Granite) was used for:
-- Generating boilerplate code for HTML, CSS, and JavaScript
-- Automatically creating project documentation
-- Recommending performance optimizations
-- Structuring project presentation clearly and systematically
+## 🤖 AI Assistance
 
-Impact of AI usage:
-- Faster development time
-- Cleaner and more maintainable code
-- Consistent and well-structured documentation
+**IBM Granite AI** helped with:
+- Generating HTML, CSS, JS boilerplate
+- Structuring documentation
+- Suggesting performance optimizations
 
-## 👀 Preview
+**Benefits**: Faster development, cleaner code, well-structured project.
+
+---
+
+## 📸 Screenshots
+
 <img src="screenshots/ssjanken.png" />
